@@ -1130,6 +1130,77 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1570656906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1570656908}
+  - component: {fileID: 1570656907}
+  - component: {fileID: 1570656909}
+  m_Layer: 0
+  m_Name: car
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1570656907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570656906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780fa36f6dc3a6e4a87490df9ef7b09b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brand: "\u8CD3\u58EB"
+  cc: 1500
+  weight: 20.5
+  window: 1
+  speed: 60.5
+  red: {r: 1, g: 0, b: 0.58513975, a: 1}
+  mycolor: {r: 0.5, g: 0.5, b: 0.9, a: 1}
+  posZero: {x: 0, y: 0}
+  posone: {x: 1, y: 1}
+  posCustom: {x: 9, y: 20}
+  pos3: {x: 3, y: 2, z: 1}
+  pos4: {x: 1, y: 2, z: 3, w: 4}
+  cam: {fileID: 0}
+  traCam: {fileID: 0}
+  cam1: {fileID: 0}
+--- !u!4 &1570656908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570656906}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.809965, y: -1.9142334, z: -0.7462852}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1570656909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570656906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d154705644921d8429e1288ab36f32f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1968224046
 GameObject:
   m_ObjectHideFlags: 0

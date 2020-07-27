@@ -16584,6 +16584,7 @@ GameObject:
   - component: {fileID: 1664282333}
   - component: {fileID: 1664282337}
   - component: {fileID: 1664282336}
+  - component: {fileID: 1664282338}
   m_Layer: 0
   m_Name: ninja
   m_TagString: Untagged
@@ -16711,6 +16712,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1664282338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664282332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7684b0eb38daec439a7913699577e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jump: 350
+  hp: 500
+  isGround: 0
+  coin: 0
+  soundHit: {fileID: 8300000, guid: bb41ad5fbb7f6634d9f711137063e456, type: 3}
+  soundSlide: {fileID: 8300000, guid: 99bc4340e1fd16649a3deb75726c961d, type: 3}
+  soundJump: {fileID: 8300000, guid: 1be28c972f05e7e468ee0364bd0554a0, type: 3}
+  soundCoin: {fileID: 8300000, guid: af749376f460f3d49a7f715681c4a426, type: 3}
+  ani: {fileID: 1664282333}
+  rid: {fileID: 1664282337}
+  cap: {fileID: 1664282336}
 --- !u!1001 &1669260390
 PrefabInstance:
   m_ObjectHideFlags: 0
