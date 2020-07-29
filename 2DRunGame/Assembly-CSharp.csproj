@@ -62,7 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\API\LearnAPI.cs" />
+    <Compile Include="Assets\API\LearnAPIStatic.cs" />
     <Compile Include="Assets\API\LearnEventMethod.cs" />
+    <Compile Include="Assets\API\LearnMethodReturn.cs" />
     <Compile Include="Assets\API\Player.cs" />
     <Compile Include="Assets\Script\Car.cs" />
     <Compile Include="Assets\Script\First.cs" />
