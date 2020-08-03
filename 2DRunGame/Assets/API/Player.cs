@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
     /// </summary>
     private void Jump()
     {
-
+        ani.SetBool("jump switch", true);
     }
     /// <summary>
     /// 滑行
@@ -83,7 +83,7 @@ public class Player : MonoBehaviour
     }
     private void Update()
     {
-
+        Jump();
     }
     #endregion
 }
