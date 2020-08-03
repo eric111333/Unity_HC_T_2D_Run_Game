@@ -36,13 +36,27 @@ public class Player : MonoBehaviour
     /// </summary>
     private void Jump()
     {
-        ani.SetBool("jump switch", true);
+        bool space = Input.GetKeyDown(KeyCode.Space)||Input.GetKeyDown(KeyCode.UpArrow);
+        //bool up = Input.GetKeyDown(KeyCode.UpArrow);
+        ani.SetBool("jump switch", space);
     }
     /// <summary>
     /// 滑行
     /// </summary>
     private void Slide()
     {
+        bool down = Input.GetKeyDown(KeyCode.DownArrow);
+        
+        if (down == true)
+        {
+            ani.SetBool("side switch", down);
+        }
+        else
+        {
+
+        }
+
+        //X-0.05 Y-0.07 Size X 2 y 3.8
 
     }
     /// <summary>
@@ -84,6 +98,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         Jump();
+        Slide();
     }
     #endregion
 }

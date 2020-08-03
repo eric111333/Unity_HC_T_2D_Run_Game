@@ -65,6 +65,7 @@
     <Compile Include="Assets\API\Learn\LearnAPI.cs" />
     <Compile Include="Assets\API\Learn\LearnAPIStatic.cs" />
     <Compile Include="Assets\API\Learn\LearnEventMethod.cs" />
+    <Compile Include="Assets\API\Learn\LearnIf.cs" />
     <Compile Include="Assets\API\Learn\LearnMethodReturn.cs" />
     <Compile Include="Assets\API\Player.cs" />
     <Compile Include="Assets\API\SceneControl.cs" />
