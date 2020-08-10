@@ -62,6 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\API\CameraControl.cs" />
+    <Compile Include="Assets\API\Enemy01.cs" />
     <Compile Include="Assets\API\Learn\LearnAPI.cs" />
     <Compile Include="Assets\API\Learn\LearnAPIStatic.cs" />
     <Compile Include="Assets\API\Learn\LearnEventMethod.cs" />

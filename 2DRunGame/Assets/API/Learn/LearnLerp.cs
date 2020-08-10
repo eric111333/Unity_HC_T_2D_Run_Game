@@ -18,7 +18,6 @@ public class LearnLerp : MonoBehaviour
 
     private void Update()
     {
-        C = Mathf.Lerp(C, D, 0.005f * Time.deltaTime);
-        v2A = Vector2.Lerp(v2A, v2B, 0.005f * Time.deltaTime);
+
     }
 }
