@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
     /// </summary>
     private void Slide()
     {
-        bool down = Input.GetKey(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S);
+        bool down = Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S);
         ani.SetBool("side switch", down);
         if(Input.GetKeyDown(KeyCode.DownArrow))  aud.PlayOneShot(soundSlide, 05f);
             
