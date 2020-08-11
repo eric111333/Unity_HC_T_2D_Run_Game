@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - SceneControl
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -20,10 +21,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -78,27 +77,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 582}
     - Class: 114
-      Script: {instanceID: 11164}
+      Script: {instanceID: 11200}
     - Class: 114
-      Script: {instanceID: 11336}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11376}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 11792}
+      Script: {instanceID: 11828}
     - Class: 114
-      Script: {instanceID: 12212}
+      Script: {instanceID: 12248}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 12414}
     - Class: 114
-      Script: {instanceID: 12874}
+      Script: {instanceID: 12576}
     - Class: 114
-      Script: {instanceID: 12950}
+      Script: {instanceID: 12762}
     - Class: 114
-      Script: {instanceID: 13112}
+      Script: {instanceID: 12912}
     - Class: 114
-      Script: {instanceID: 14278}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 80792}
+      Script: {instanceID: 13150}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -155,25 +154,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11164}
+      Script: {instanceID: 11200}
     - Class: 114
-      Script: {instanceID: 11336}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11376}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 11720}
+      Script: {instanceID: 11756}
     - Class: 114
-      Script: {instanceID: 11792}
+      Script: {instanceID: 11828}
     - Class: 114
-      Script: {instanceID: 12212}
+      Script: {instanceID: 12248}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 12762}
     - Class: 114
-      Script: {instanceID: 12874}
+      Script: {instanceID: 12912}
     - Class: 114
-      Script: {instanceID: 13048}
+      Script: {instanceID: 13086}
     - Class: 114
-      Script: {instanceID: 13112}
+      Script: {instanceID: 13150}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -477,6 +476,12 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Enemy01
+  - hash:
+      serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -523,6 +528,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e8feec615c471c06dc48ab5fbb0b15bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraControl
   - hash:
       serializedVersion: 2
       Hash: 8001a5f7502aab37e42206da015e6914
@@ -679,20 +690,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: e8feec615c471c06dc48ab5fbb0b15bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraControl
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Enemy01
   platform: 20
   scenePathNames:
   - "Assets/\u9078\u55AE.unity"
   - "Assets/\u904A\u6232\u5834\u666F.unity"
-  playerPath: E:/Unity_HC_T_2D_Run_Game/Web
+  playerPath: D:/Unity/Unity_HC_T_2D_Run_Game/Web
